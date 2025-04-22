@@ -35,6 +35,10 @@ address {
     font-style: normal;
 }
 
+form {
+    font-family: "Roboto", sans-serif;
+}
+
 .header {
    border-bottom: 1px solid #E7E9FC;
    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -481,6 +485,7 @@ background-color: #404bbf;
 
 .footer-social-media {
     width: 208px;
+    margin-right: 80px;
 }
 
 
@@ -529,4 +534,71 @@ background-color: #404bbf;
     width: 24px;
     height: 24px;
     
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.footer-form-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: white;
+    
+    
+    
+}
+
+.footer-form-input {
+        border: 1px solid white;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        background-color: #2E2F42;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 16px;
+}
+
+.footer-form-input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: white;
+    padding-left: 16px;
+    
+}
+
+.footer-form-button {
+    background-color: #4D5AE5;
+    fill: white;
+    color: white;
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 0 0 0 24px;
+    text-align: start;
+    align-self: flex-end;
+    position: relative;
+    
+}
+
+.footer-icon-plane {
+    color: white;
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 24px;
+
 }
