@@ -245,6 +245,15 @@ background-color: #404bbf;
     stroke: #2E2F42;
 }
 
+.modal-close-button:hover {
+    background-color: #4D5AE5;
+    border: none;
+}
+
+.modal-close-button:hover .modal-close {
+    fill: white;
+}
+
 .modal-close {
     width: 8px;
     height: 8px;
@@ -299,11 +308,12 @@ background-color: #404bbf;
 }
 
 .modal-label-icon {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 24px;
     position: absolute;
     top: 11px;
     left: 16px;
+    fill: 2E2F42;
 }
 
 .modal-input {
@@ -336,6 +346,10 @@ background-color: #404bbf;
     outline: none;
 }
 
+/* не працює */
+.modal-input:focus .modal-label-icon {
+    fill: #4D5AE5;
+}
 
 .modal-textarea:focus-within {
     border: 1px solid #4D5AE5;
@@ -353,8 +367,22 @@ background-color: #404bbf;
     color: #8E8F99;
     margin-bottom: 24px;    
 }
+.span-checkbox
+ {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: #FCFCFC;
+    margin-right: 8px;
+}
 
-.modal-form-checkbox-span {
+.span-checkbox:hover {
+    color: #4D5AE5;
+    border: none;
+}
+
+.modal-form-checkbox-link {
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33;
@@ -364,16 +392,6 @@ background-color: #404bbf;
     color: #8E8F99;
     color: #4D5AE5;         
 }
-
-/* .modal-form-checkbox::before { */
-    /* додає лише вертикальні лініі */
-    /* content: ""; */
-    /* width: 16px;
-    height: 16px; */
-    /* border-radius: 4px; */
-    /* background-color: #FCFCFC;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-} */
 
 
 .modal-button {
