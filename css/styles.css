@@ -677,10 +677,10 @@ background-color: #404bbf;
     fill: #ffffff;
 }
 
-.modal-close-button:hover modal-close {
+.modal-close-button:hover .modal-close {
     fill: white;
 }
-.modal-close-button:focus modal-close {
+.modal-close-button:focus .modal-close {
     fill: white;
 }
 
@@ -793,7 +793,7 @@ background-color: #404bbf;
     margin-bottom: 24px;
 }
 
-.modal-form-checkbox-input:checked span {
+.modal-form-checkbox-input :checked + span {
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
