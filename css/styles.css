@@ -793,7 +793,7 @@ background-color: #404bbf;
     margin-bottom: 24px;
 }
 
-.modal-form-checkbox-input :checked + span {
+.modal-form-checkbox-input:checked + .label-checkbox > span {
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
@@ -815,6 +815,10 @@ background-color: #404bbf;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    fill: transparent;
+}
+
+.checkbox-icon {
     fill: transparent;
 }
 
