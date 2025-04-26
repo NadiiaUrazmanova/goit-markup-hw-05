@@ -789,12 +789,10 @@ background-color: #404bbf;
 
 .modal-form-checkbox-input:checked + .label-checkbox > span {
     background-color:#404bbf;
-    border: none;    
-}
-
-.modal-form-checkbox-input:checked + .label-checkbox > .span-checkbox > .checkbox-icon {
+    border: none; 
     fill: #F4F4FD;
 }
+
 
 .label-checkbox {
     font-size: 12px;
