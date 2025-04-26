@@ -747,7 +747,7 @@ background-color: #404bbf;
     outline: none;
 }
 
-.modal-input:focus .modal-label-icon {
+.modal-input:focus + .modal-label-icon {
     fill: #4D5AE5;
 }
 
