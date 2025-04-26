@@ -571,7 +571,6 @@ background-color: #404bbf;
     height: 40px;
     background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-top: 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -599,7 +598,6 @@ background-color: #404bbf;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 0 0 0 24px;    
     text-align: start;
     align-self: flex-end;
     position: relative;
@@ -690,10 +688,6 @@ background-color: #404bbf;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form {
-    font-family: inherit;
-    padding: 72px 24px 24px 24px;
-}
 
 
 .modal-form-legend {
@@ -795,7 +789,10 @@ background-color: #404bbf;
 
 .modal-form-checkbox-input:checked + .label-checkbox > span {
     background-color:#404bbf;
-    border: none;
+    border: none;    
+}
+
+.modal-form-checkbox-input:checked + .label-checkbox > .span-checkbox > .checkbox-icon {
     fill: #F4F4FD;
 }
 
@@ -818,13 +815,10 @@ background-color: #404bbf;
     fill: transparent;
 }
 
-.checkbox-icon {
-    fill: transparent;
-}
 
 .label-checkbox:hover {
     color: #4D5AE5;
-    border: none;
+    border: none;    
 }
 
 .modal-form-checkbox-link {
@@ -847,5 +841,6 @@ background-color: #404bbf;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
